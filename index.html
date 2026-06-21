@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Korean_Zero100 — Learn Korean from zero to 100</title>
+<meta name="description" content="Learn Korean from zero to 100 with Rock the owl. Free starter pack, pronunciation course, group lessons, and a Korea travel guide.">
+<link rel="icon" type="image/png" href="Korean_Zero100_logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#FBF4E2; --cream2:#F4E9CE; --card:#FFFDF7;
+    --brown:#9A6B3E; --brown-d:#5A3A22; --ink:#4A3320; --muted:#8A6E4E;
+    --ring:#E0CBA0; --accent:#E8A93A;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Nunito',sans-serif;color:var(--ink);background:var(--cream);line-height:1.65}
+  .wrap{max-width:720px;margin:0 auto;padding:0 22px}
+  a{color:inherit}
+  h1,h2,h3{font-weight:800;color:var(--brown-d)}
+  section{padding:46px 0}
+
+  /* Hero */
+  .hero{text-align:center;padding:54px 0 40px}
+  .hero img{width:190px;height:auto;filter:drop-shadow(0 8px 14px rgba(90,58,34,.18))}
+  .hero h1{font-size:40px;margin:14px 0 6px;letter-spacing:.5px}
+  .hero .tag{font-size:19px;font-weight:700;color:var(--brown)}
+  .hero .sub{font-size:16px;color:var(--muted);margin-top:8px}
+  .socials{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:22px}
+  .btn{display:inline-block;background:var(--brown);color:var(--cream);text-decoration:none;
+       font-weight:700;padding:12px 22px;border-radius:999px;transition:transform .12s,background .12s}
+  .btn:hover{transform:translateY(-2px);background:var(--brown-d)}
+  .btn.alt{background:var(--card);color:var(--brown-d);border:2px solid var(--ring)}
+
+  /* Cards */
+  h2.center{text-align:center;font-size:27px;margin-bottom:8px}
+  .lead{text-align:center;color:var(--muted);margin-bottom:26px}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .card{background:var(--card);border:1px solid var(--ring);border-radius:18px;padding:20px}
+  .card .ico{font-size:26px}
+  .card h3{font-size:18px;margin:8px 0 4px}
+  .card p{font-size:15px;color:var(--muted)}
+
+  /* About */
+  .about{background:var(--cream2);border-radius:24px;padding:34px 26px;text-align:center}
+  .about img{width:96px;height:96px;border-radius:50%;border:4px solid var(--card);object-fit:cover}
+  .about p{margin-top:12px;color:var(--ink)}
+
+  /* Contact */
+  .form{background:var(--card);border:1px solid var(--ring);border-radius:22px;padding:26px;margin-top:8px}
+  .form label{display:block;font-weight:700;font-size:14px;margin:14px 0 6px;color:var(--brown-d)}
+  .form input,.form textarea{width:100%;font-family:inherit;font-size:16px;padding:12px 14px;
+       border:1.5px solid var(--ring);border-radius:12px;background:#fff;color:var(--ink)}
+  .form input:focus,.form textarea:focus{outline:none;border-color:var(--brown)}
+  .form textarea{min-height:120px;resize:vertical}
+  .form button{margin-top:18px;width:100%;cursor:pointer;border:none;font-size:17px}
+  .contact-note{text-align:center;font-size:14px;color:var(--muted);margin-top:14px}
+  .contact-note a{color:var(--brown);font-weight:700}
+
+  footer{text-align:center;padding:34px 0 50px;color:var(--muted);font-size:14px}
+  footer .socials{margin-bottom:12px}
+
+  @media(max-width:560px){
+    .hero h1{font-size:32px}
+    .grid{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+
+<!-- ===== HERO / 채널 소개 ===== -->
+<header class="hero wrap">
+  <img src="Korean_Zero100_owl_hero.png" alt="Rock the owl mascot">
+  <h1>Korean_Zero100</h1>
+  <p class="tag">Learn Korean from zero to 100 🦉</p>
+  <p class="sub">Short, fun lessons. Real Korean. Sung by Rock so it actually sticks.</p>
+  <div class="socials">
+    <!-- EDIT: 실제 채널 링크로 교체 -->
+    <a class="btn" href="#" target="_blank" rel="noopener">▶ YouTube</a>
+    <a class="btn alt" href="#" target="_blank" rel="noopener">TikTok</a>
+    <a class="btn alt" href="#" target="_blank" rel="noopener">Instagram</a>
+  </div>
+</header>
+
+<!-- ===== COURSES / 무엇을 배우나 ===== -->
+<section class="wrap">
+  <h2 class="center">What you'll get</h2>
+  <p class="lead">Everything to take you from your first word to real conversations.</p>
+  <div class="grid">
+    <div class="card">
+      <div class="ico">📚</div>
+      <h3>Free Korean Starter Pack</h3>
+      <p>The essential phrases &amp; Hangul guide — free when you join the list.</p>
+    </div>
+    <div class="card">
+      <div class="ico">🗣️</div>
+      <h3>Pronunciation Course</h3>
+      <p>Fix the sounds English speakers struggle with, through singing drills.</p>
+    </div>
+    <div class="card">
+      <div class="ico">👥</div>
+      <h3>Group Lessons</h3>
+      <p>Learn live in a small, friendly group and practice speaking.</p>
+    </div>
+    <div class="card">
+      <div class="ico">✈️</div>
+      <h3>Korea Travel Guide</h3>
+      <p>Survival Korean and local tips to make your trip smooth and fun.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT / 나에 대한 소개 ===== -->
+<section class="wrap">
+  <h2 class="center">About me</h2>
+  <div class="about">
+    <img src="Korean_Zero100_logo.png" alt="Korean_Zero100">
+    <!-- EDIT: 본인 소개로 자유롭게 수정하세요 -->
+    <p><strong>안녕하세요!</strong> I'm the voice behind Rock the owl. I'm a native Korean speaker who loves
+    teaching Korean in a way that's fun and actually sticks — by singing it.</p>
+    <p>My goal with Korean_Zero100 is to take you from <em>zero to 100</em>: from your very first
+    Hangul letter all the way to speaking real, natural Korean. Whether you're here for K-pop,
+    K-dramas, or a trip to Korea, Rock and I will get you there. 화이팅! 🇰🇷</p>
+  </div>
+</section>
+
+<!-- ===== CONTACT / 문의 → Google Sheet 자동 저장 =====
+     제출(이름·이메일·메시지)은 네 Google Sheet에 한 줄씩 자동 저장됩니다.
+     연결: 같은 폴더의 "google-sheet-연결방법.md" 5단계를 따른 뒤,
+     배포된 Apps Script 웹앱 URL을 아래 <script> 의 SCRIPT_URL 에 붙여넣으세요.
+     나중에 WhatsApp/KakaoTalk으로 바꾸려면 이 <form> 블록만 버튼 링크로 교체하면 됩니다. -->
+<section class="wrap">
+  <h2 class="center">Get in touch</h2>
+  <p class="lead">Questions about lessons or courses? Send me a message.</p>
+  <form class="form" id="contactForm">
+    <label for="name">Name</label>
+    <input id="name" name="name" type="text" placeholder="Your name" required>
+
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="What would you like to know?" required></textarea>
+
+    <button class="btn" type="submit" id="sendBtn">Send message</button>
+    <p id="formStatus" style="text-align:center;margin-top:14px;font-weight:700;display:none"></p>
+  </form>
+  <p class="contact-note">
+    Prefer email? Write to <a href="mailto:korean.zero100@gmail.com">korean.zero100@gmail.com</a>
+  </p>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="socials">
+    <a class="btn" href="#" target="_blank" rel="noopener">▶ YouTube</a>
+    <a class="btn alt" href="#" target="_blank" rel="noopener">TikTok</a>
+    <a class="btn alt" href="#" target="_blank" rel="noopener">Instagram</a>
+  </div>
+  © <span id="yr"></span> Korean_Zero100 · Learn Korean from zero to 100
+</footer>
+
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  /* === Google Sheet 연결 ===
+     아래 따옴표 안에, 배포한 Apps Script 웹앱 URL을 붙여넣으세요.
+     (방법: 같은 폴더의 "google-sheet-연결방법.md" 참고) */
+  const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxShx9dffgNXl5tUF_wxFqGuBO8t8gzmAcUAMaFDZTWBGFU5FkjkE4SUGLrnBaobYYf/exec";
+
+  const form = document.getElementById('contactForm');
+  const statusEl = document.getElementById('formStatus');
+  const sendBtn = document.getElementById('sendBtn');
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    if (SCRIPT_URL.indexOf('http') !== 0) {
+      statusEl.style.display = 'block';
+      statusEl.style.color = '#B23B3B';
+      statusEl.textContent = '⚠ Form not connected yet (set SCRIPT_URL).';
+      return;
+    }
+    sendBtn.disabled = true;
+    sendBtn.textContent = 'Sending…';
+    try {
+      await fetch(SCRIPT_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        body: new URLSearchParams(new FormData(form))
+      });
+      form.reset();
+      statusEl.style.display = 'block';
+      statusEl.style.color = '#2E7D46';
+      statusEl.textContent = '✓ Thank you! Your message has been sent.';
+    } catch (err) {
+      statusEl.style.display = 'block';
+      statusEl.style.color = '#B23B3B';
+      statusEl.textContent = 'Something went wrong — please email korean.zero100@gmail.com';
+    }
+    sendBtn.disabled = 
